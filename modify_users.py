@@ -43,7 +43,7 @@ if __name__ == "__main__":
     load_dotenv()
     from argparse import ArgumentParser
 
-    parser = ArgumentParser(description="bulk create MongoDB databases and users")
+    parser = ArgumentParser(description="bulk modify MongoDB users")
     parser.add_argument("file", type=str, help="csv file to load users from")
     parser.add_argument(
         "--output",

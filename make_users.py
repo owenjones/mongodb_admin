@@ -49,7 +49,7 @@ if __name__ == "__main__":
         "--output",
         "-o",
         action="store_true",
-        help="save csv output for successful and unsuccessful SSL certificate fixes",
+        help="save csv output for successful and unsuccessful user creations",
     )
     parser.add_argument(
         "--debug",
